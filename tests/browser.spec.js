@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 test('desktop: questions, notes, real countdown transitions, recording replay and deletion',async({page})=>{
   const errors=[]; page.on('pageerror',error=>errors.push(error.message));
-  await page.goto('/'); await expect(page).toHaveTitle('IELTS Speaking Coach');
+  await page.goto('/'); await expect(page).toHaveTitle('Louise IELTS Speaking Academy');
   for(const part of [1,2,3]) {
     await page.locator(`[data-part="${part}"]`).click();
     await expect(page.locator('#question-select option')).toHaveCount(10);

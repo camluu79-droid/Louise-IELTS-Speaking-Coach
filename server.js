@@ -10,5 +10,5 @@ export const server = http.createServer(async (req,res) => {
 });
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const port = Number(process.env.PORT || 3000);
-  server.listen(port,'0.0.0.0',() => console.log(`IELTS Speaking Coach is ready: http://localhost:${port}`));
+  server.listen(port,'0.0.0.0',() => console.log(`Louise IELTS Speaking Academy is ready: http://localhost:${port}`));
 }
