@@ -1,4 +1,6 @@
-# IELTS Speaking Coach
+# Louise IELTS Speaking Academy
+
+Teacher: **Louise Vo · 8.0 IELTS overall**
 
 A free, responsive IELTS Speaking practice website. It includes 10 original questions for each speaking part, 10 Part 2 cue cards, preparation notes, a 1-minute preparation timer, a 2-minute speaking timer, and microphone recording with replay, download, and deletion. There are no paid APIs, accounts, or automatic band scores.
 
